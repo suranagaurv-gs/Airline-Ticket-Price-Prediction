@@ -30,14 +30,14 @@ airlines-ticket-price-prediction/
 │
 ├── notebooks/ 
 ├── data/ 
-│     ├── raw/
-│     └── processed/cleaned_airlines.csv
+      ├── raw/
+      └── processed/cleaned_airlines.csv
 ├── models/
-|     ├── linear_regression.pkl
-│     ├── xgboost.pkl
-│     ├── catboost.pkl
-|     ├─scaler.pkl
-│     └── airline_rf_model.pkl
+      ├── linear_regression.pkl
+      ├── xgboost.pkl
+      ├── catboost.pkl
+      ├─scaler.pkl
+      └── airline_rf_model.pkl
        
 ├── README.md 
 └── requirements.txt 
@@ -83,6 +83,14 @@ pip install -r requirements.txt
 | XGBoost               | 3788.62 | 0.972 |
 | CatBoost              | 4281.28 | 0.964 |
 
+
+## Final Tuned Model
+
+The final Random Forest model was trained using hyperparameter tuning.
+Due to GitHub file size limitations, the trained model file is not uploaded.
+
+To regenerate the model:
+Run the notebook: notebooks/model_training.ipynb
 
 
 ## Acknowledgements
