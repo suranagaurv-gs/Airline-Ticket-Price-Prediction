@@ -70,7 +70,7 @@ git clone https://github.com/suranagaurv-gs/Airlines-Ticket-Price-Prediction.git
 pip install -r requirements.txt
 
 
-
+---
 
 
 ## Model Performance
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 | XGBoost               | 3788.62 | 0.972 |
 | CatBoost              | 4281.28 | 0.964 |
 
-
+---
 ## Final Tuned Model
 
 The final Random Forest model was trained using hyperparameter tuning.
@@ -91,14 +91,14 @@ Due to GitHub file size limitations, the trained model file is not uploaded.
 
 To regenerate the model:
 Run the notebook: notebooks/model_training.ipynb
-
+---
 
 ## Acknowledgements
 - Kaggle Airline Price Prediction dataset
 - Scikit-learn documentation
 - XGBoost and CatBoost official documentation
 
-
+---
 
 ## Notes
 - Preprocessing and feature extraction are crucial to reduce high-dimensional data and prevent memory overload.
