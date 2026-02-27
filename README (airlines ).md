@@ -45,8 +45,6 @@ airlines-ticket-price-prediction/
 └── requirements.txt
 ```
 
----
-
 ## Models Used
 
 1. Linear Regression  
@@ -56,7 +54,7 @@ airlines-ticket-price-prediction/
 
 ---
 
----
+
 
 ## Final Tuned Model File
 
@@ -65,7 +63,7 @@ The Random Forest model used for hyperparameter tuning is large in size (~1GB).
 Due to GitHub's 100MB file size limit, the trained `airline_rf_model.pkl` file is not uploaded to this repository.
 
 To regenerate the tuned model, run the training notebook available in the `notebooks/` directory.
-
+---
 ## How to Run
 
 ### 1. Clone the repository
